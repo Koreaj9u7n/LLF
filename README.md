@@ -42,6 +42,7 @@ roles of binding affinity prediction.
 <B>utils.py :</B> It preprocesses the input data (SMILES, target sequences, and affinities) into a format suitable for model training.
 
 ## How to use our codes <a name="Environment"></a>
+All the requirements are listed in the requirements.txt file
 
 <B>Step 1:</B> Download the file that matches the dataset you want to use from the Dataset download links.
 
