@@ -25,9 +25,32 @@ roles of binding affinity prediction.
 
 ![alt text](https://github.com/Koreaj9u7n/LLF/blob/main/image/dataset.png "Dataset")
 
-## Result Table <a name="Dataset"></a>
+## Result Table <a name="Result"></a>
 
 ![alt text](https://github.com/Koreaj9u7n/LLF/blob/main/image/Result%20Table.png "Result Table")
+
+## The components of our model <a name="Environment"></a>
+
+<B>data_creation.py :</B> converting datasets into PyTorch Geometric format. It's used for data preprocessing in Binding affinity prediction tasks.
+
+<B>emetrics.py :</B> calculating various evaluation metrics such as Concordance Index, Mean Squared Error, R-squared, Pearson Correlation, and Area Under the Precision-Recall Curve (AUPR).
+
+<B>gcn.py :</B> consisting of graph convolutional layers for processing molecular graphs (SMILES), convolutional layers for processing protein sequences, and fully connected layers for combining the features from both branches and making predictions.
+
+<B>training.py :</B> training and testing a model on a given dataset using PyTorch.
+
+<B>utils.py :</B> It preprocesses the input data (SMILES, target sequences, and affinities) into a format suitable for model training.
+
+## How to use our codes <a name="Environment"></a>
+
+<B>Step 1:</B> Download the file that matches the dataset you want to use from the Dataset download links.
+
+<B>Step 2:</B> Use the (data_creation.py) file for data preprocessing.
+
+<B>Step 3:</B> Use (the training.py) file to train the model using the provided data.
+
+<B>Step 4:</B> You can check the model performance for a specific epoch using the score values specified in (emetrics.py).
+
 
 ### Dataset download links <a name="P-down"></a>
 | Dataset   | Dataset download links |
