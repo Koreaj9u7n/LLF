@@ -25,9 +25,20 @@ roles of binding affinity prediction.
 
 ![alt text](https://github.com/Koreaj9u7n/LLF/blob/main/image/dataset.png "Dataset")
 
-## Result Table <a name="Dataset"></a>
+## Result Table <a name="Table"></a>
 
 ![alt text](https://github.com/Koreaj9u7n/LLF/blob/main/image/Result%20Table.png "Result Table")
+
+## How to use our codes <a name="Environment"></a>
+
+<B>Step 1:</B> Download the file that matches the dataset you want to use from the Dataset download links.
+
+<B>Step 2:</B> Use the (data_creation.py) file for data preprocessing.
+
+<B>Step 2:</B> Use (the training.py) file to train the model using the provided data.
+
+<B>Step 2:</B> You can check the model performance for a specific epoch using the score values specified in emetrics.py.
+
 
 ### Dataset download links <a name="P-down"></a>
 | Dataset   | Dataset download links |
